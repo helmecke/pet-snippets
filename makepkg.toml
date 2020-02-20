@@ -1,0 +1,9 @@
+[[snippets]]
+  description = "Build and install PGKBUILD in current directory."
+  command = "makepkg -si"
+  tag = ["makepkg"]
+
+[[snippets]]
+  description = "Create or update SRCINFO for PGKBUILD in current directory."
+  command = "makepkg --printsrcinfo > .SRCINFO"
+  tag = ["makepkg"]
