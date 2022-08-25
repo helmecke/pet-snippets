@@ -1,0 +1,9 @@
+[[snippets]]
+  description = "Configure aws profile"
+  command = "aws configure --profile <profile>"
+  tag = ["aws-cli"]
+
+[[snippets]]
+  description = "Update kubeconfig"
+  command = "aws eks update-kubeconfig --name <name=eks> --profile <profile> --alias <alias>"
+  tag = ["aws-cli", "eks"]
